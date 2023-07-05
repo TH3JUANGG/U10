@@ -33,7 +33,7 @@ class ConexionController extends Controller
         //
         $datosEmpleado = request()->except('_token');
         conexion::insert($datosEmpleado);
-        return response()->json($datosEmpleado);
+        return view('/contacto');
     }
 
     /**

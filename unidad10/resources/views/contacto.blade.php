@@ -43,10 +43,10 @@
         </div>
         <div>
           <label for="Observacion">Observación:</label>
-          <textarea id="Observacion" name="Observacion"></textarea>
+          <textarea id="Observacion" name="Observacion"required></textarea>
         </div>
         <div class="buttons">
-          <button type="submit" onclick="alert('Informacion enviada');" >Enviar</button>
+          <button type="submit" onclick="alert('Informacion enviada');">Enviar</button>
 
           <button type="button" onclick="clearForm()">Borrar Datos</button>
         </div>
