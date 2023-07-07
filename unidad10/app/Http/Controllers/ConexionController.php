@@ -67,4 +67,17 @@ class ConexionController extends Controller
     {
         //
     }
+
+    public function contact_post(Request $request)
+    {
+ 
+        echo "Nombre".$request->input('Nombre')."<br>";
+        echo "N_Telefono".$request->input('N_Telefono')."<br>";
+        echo "Correo_Electronico".$request->input('Correo_Electronico')."<br>";
+        echo "Empresa".$request->Empresa."<br>";
+        echo "Observacion".$request->Observacion."<br>";
+        
+ 
+        return view('contact');
+    }
 }

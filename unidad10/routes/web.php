@@ -34,4 +34,6 @@ Route::get('/curricular_vitae', function () {
     return view('curricular_vitae');
 });
 
+Route::post('/contacto','ConexionController@contact_post');
+
 Route::resource('views',ConexionController::class);

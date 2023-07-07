@@ -1,0 +1,18 @@
+Entrega U10
+
+Proyecto en Github: https://github.com/TH3JUANGG/U10
+Diagramas: https://drive.google.com/drive/folders/1NdMDeAyjdzbU0zsjBEy8qgCVRlJxdY6D?usp=sharing
+
+
+Tener en cuenta:
+
+para ingresar al proyecto Laravel debes de ingresar con: http://localhost:8000/index
+
+
+POSTMAN
+
+Profesor, valide informacion y realice las pruebas pero algo esta mal configurado, entiendo el objetivo con este programa y su funcionalidad, pero en la conexion estoy fallando con algo. y la verdad le di vueltas pero tu eres el que sabe, ya no me queda mas tiempo para realizar pruebas, espero comprendas.
+
+En el archivo "response" es lo que me genera postman.
+
+muchas gracias 

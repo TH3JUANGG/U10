@@ -23,7 +23,7 @@
       <br>
       <br>
       <h2>Formulario de Contacto</h2>
-      <form action="{{url('/views')}}" method="post" id="contact-form" onsubmit="return validateForm()">
+      <form action="{{url('/views')}}" method="POST" id="contact-form" onsubmit="return validateForm()">
       @csrf
         <div>
           <label for="Nombre">Nombre:</label>
@@ -43,10 +43,10 @@
         </div>
         <div>
           <label for="Observacion">Observación:</label>
-          <textarea id="Observacion" name="Observacion"required></textarea>
+          <textarea id="Observacion" name="Observacion"></textarea>
         </div>
         <div class="buttons">
-          <button type="submit" onclick="alert('Informacion enviada');">Enviar</button>
+          <button type="submit" onclick="alert('Informacion enviada');" >Enviar</button>
 
           <button type="button" onclick="clearForm()">Borrar Datos</button>
         </div>

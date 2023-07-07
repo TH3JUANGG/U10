@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class conexion extends Model
 {
     use HasFactory;
+
+    protected $table = "conexions";
+    protected $primarykey ="id";
+    protected $fillable =["Nombre","N_Telefono","Correo_Electronico","Empresa","Observacion"];
 }
