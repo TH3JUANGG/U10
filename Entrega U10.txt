@@ -1,6 +1,7 @@
 Entrega U10
 
 Proyecto en Github: https://github.com/TH3JUANGG/U10
+
 Diagramas: https://drive.google.com/drive/folders/1NdMDeAyjdzbU0zsjBEy8qgCVRlJxdY6D?usp=sharing
 
 
@@ -11,8 +12,7 @@ para ingresar al proyecto Laravel debes de ingresar con: http://localhost:8000/i
 
 POSTMAN
 
-Profesor, valide informacion y realice las pruebas pero algo esta mal configurado, entiendo el objetivo con este programa y su funcionalidad, pero en la conexion estoy fallando con algo. y la verdad le di vueltas pero tu eres el que sabe, ya no me queda mas tiempo para realizar pruebas, espero comprendas.
+https://documenter.getpostman.com/view/28076147/2s93zGzyQe
 
-En el archivo "response" es lo que me genera postman.
 
-muchas gracias 
+Muchas gracias Profesor y a todos los encargados, espero les guste el resultado :)

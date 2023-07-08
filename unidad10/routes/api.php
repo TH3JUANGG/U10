@@ -2,7 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\ContactoController;
+use App\Http\Controllers\ApiController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -15,11 +16,11 @@ use Illuminate\Support\Facades\ContactoController;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+/*Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-
-Route::get('/contacto',[ContactoController::class,'read']);
-Route::post('/contacto',[ContactoController::class,'post']);
-Route::patch('/contacto',[ContactoController::class,'patch']);
-Route::delete('/contacto',[ContactoController::class,'delete']);
+*/
+Route::post("/conexion",[ApiController::class,'create']);
+Route::get("/conexions",[ApiController::class,'read']);
+Route::put("/conexion",[ApiController::class,'update']);
+Route::delete("/conexion",[ApiController::class,'delete']);
